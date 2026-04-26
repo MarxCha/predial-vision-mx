@@ -102,3 +102,19 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# OS
+.DS_Store
+
+# Spec workflow
+.spec-workflow/
+
+# Data files (too large for git)
+*.tif
+*.record
+*.mbtiles
+*.mbtiles.gz
+tiles/
+tiles_info.json
+tile_list.txt
+*.tar.gz

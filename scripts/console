@@ -24,7 +24,7 @@ All arguments after above options are passed to 'docker run'.
 "
 }
 
-IMAGE="quay.io/azavea/raster-vision:cpu-9f38cc9"
+IMAGE="${RASTER_VISION_IMAGE:-raster-vision:local}"
 
 # Parse options using scheme in
 # https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
@@ -42,7 +42,7 @@ do
         shift # past argument
         ;;
         --gpu)
-        IMAGE="quay.io/azavea/raster-vision:gpu-9f38cc9"
+        IMAGE="${RASTER_VISION_GPU_IMAGE:-raster-vision:local-gpu}"
         RUNTIME="--runtime=nvidia"
         shift # past argument
         ;;

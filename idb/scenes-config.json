@@ -63,5 +63,17 @@
             "belice/aois/3.geojson",
             "belice/aois/4.geojson"
         ]
+    },
+    "nicolas_romero": {
+        "id": "nicolas_romero",
+        "labels": "vector-tiles/mexico.mbtiles.gz",
+        "images": [
+            "nicolas-romero/imagery/nicolas-romero.tif"
+        ],
+        "aois": [
+            "nicolas-romero/aois/train-aoi1.geojson",
+            "nicolas-romero/aois/train-aoi2.geojson",
+            "nicolas-romero/aois/val-aoi1.geojson"
+        ]
     }
 }

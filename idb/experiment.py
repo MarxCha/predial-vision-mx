@@ -73,22 +73,14 @@ def build_scenes(remote, test, task, channel_order):
 
     if test:
         splits = {
-            'paramaribo_test': {
+            'nicolas_romero': {
                 'train': [0],
-                'test': [1]
+                'test': [2]
             }
         }
     else:
         splits = {
-            'belice': {
-                'train': [0, 1],
-                'test': [2]
-            },
-            'georgetown': {
-                'train': [0, 1],
-                'test': [4]
-            },
-            'paramaribo': {
+            'nicolas_romero': {
                 'train': [0, 1],
                 'test': [2]
             }
