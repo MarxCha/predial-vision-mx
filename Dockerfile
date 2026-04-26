@@ -25,7 +25,7 @@ RUN pip install --no-cache-dir "shapely<2" rtree "rasterio<1.3" "GDAL==$(gdal-co
 # Remaining deps
 RUN pip install --no-cache-dir "Pillow<9" "click<7" "lxml<5" "imageio<3" "scikit-learn<1" \
     six "matplotlib<3" "networkx<3" everett==0.9 pluginbase==0.7 "supermercado==0.0.5" \
-    boto3 tf-slim==1.1.0 "jinja2<3.1"
+    boto3 tf-slim==1.1.0 "jinja2<3.1" mask-to-polygons
 
 # Install RV --no-deps
 RUN pip install --no-cache-dir --no-deps \
