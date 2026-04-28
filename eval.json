@@ -1,0 +1,11 @@
+{
+  "scene": "nicolas_romero",
+  "precision": 0.34675099265316117,
+  "recall": 0.11837604686989968,
+  "f1": 0.1764980634886071,
+  "iou": 0.09679072125811881,
+  "polygons_detected": 10,
+  "model": "DeepLabV3+ MobileNetV2",
+  "epochs": 30,
+  "best_val_f1": 0.06929129055647364
+}
