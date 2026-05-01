@@ -1,0 +1,13 @@
+{
+  "id": "marxchavez/predial-vision-mx-nicolas-romero",
+  "title": "Predial Vision MX - Nicolas Romero",
+  "code_file": "kaggle-predial-vision-nr.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": ["marxchavez/predial-vision-nr-data"],
+  "competition_sources": [],
+  "kernel_sources": []
+}
